@@ -1,0 +1,49 @@
+body{
+    font-size: 30px;
+}
+
+
+.item-a {
+    grid-area: logo;
+    background: blue;
+}
+
+.item-b {
+    grid-area: header;
+    background: red;
+}
+
+.item-c {
+    grid-area: option;
+    background: green;
+}
+
+/* .item-d {
+    grid-area: navbar;
+    background: yellow;
+} */
+
+.item-e {
+    grid-area: results;
+    background: orange;
+}
+
+.item-f {
+    grid-area: footer;
+    background: pink;
+}
+
+.container {
+    display: grid;
+    width: 100%;
+    min-height: 2000px;
+    background: white;
+    grid-template-columns: 20% 1fr 25%;
+    grid-template-rows: 5% 1fr 10%;
+    grid-template-areas:
+    "logo header option"
+    /* ". navbar ." */
+    ". results ."
+    ". footer .";
+}
+
