@@ -1,37 +1,66 @@
 body{
-    font-size: 30px;
+    font-size: 14px;
 }
 
 
 .item-a {
     grid-area: logo;
-    background: blue;
+    border: 1px blue solid;
+    display: grid;
 }
+
+#logo-div {
+    justify-content: center;
+}
+
+#logo-div img {
+    width: 92px;
+    height: 37px;
+    border: 5px black solid;
+} 
 
 .item-b {
     grid-area: header;
-    background: #ff0000;
+    border: 1px #ff0000 solid;
     display: grid;
     grid-template-rows: 57% 43%;
 }
 
 .navbar{
-    background: yellow;
+    border: 1px yellow solid;
+    display: flex;
+}
+
+ul {
+    border: 1px turquoise solid;
+}
+
+li a {
+    display: block;
+    padding: 0px 10px;
+}
+
+#navbar-left {
+    width: 75%;
+}
+
+#navbar-right {
+    width: 25%
 }
 
 .item-c {
     grid-area: option;
-    background: green;
+    border: 1px green solid;
 }
 
 .item-e {
     grid-area: results;
-    background: orange;
+    border: 1px orange solid;
 }
 
 .item-f {
     grid-area: footer;
-    background: pink;
+    border: 1px pink solid;
 }
 
 .container {
