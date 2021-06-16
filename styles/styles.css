@@ -10,18 +10,19 @@ body{
 
 .item-b {
     grid-area: header;
-    background: red;
+    background: #ff0000;
+    display: grid;
+    grid-template-rows: 57% 43%;
+}
+
+.navbar{
+    background: yellow;
 }
 
 .item-c {
     grid-area: option;
     background: green;
 }
-
-/* .item-d {
-    grid-area: navbar;
-    background: yellow;
-} */
 
 .item-e {
     grid-area: results;
@@ -38,12 +39,12 @@ body{
     width: 100%;
     min-height: 2000px;
     background: white;
-    grid-template-columns: 20% 1fr 25%;
-    grid-template-rows: 5% 1fr 10%;
+    grid-template-columns: 12% 1fr 32%;
+    grid-template-rows: 4% 3% 1fr 6%;
     grid-template-areas:
     "logo header option"
-    /* ". navbar ." */
+    ". header ."
     ". results ."
-    ". footer .";
+    "footer footer footer";
 }
 
