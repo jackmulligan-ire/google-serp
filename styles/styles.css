@@ -1,79 +1,58 @@
 body{
     font-size: 14px;
+    height: 1500px;
+    width: 1500px;
 }
 
-
-.item-a {
-    grid-area: logo;
-    border: 1px blue solid;
-    display: grid;
+#menu-div{
+    background: blue;
+    height: 70px;
+    display: flex;
+    margin: 20px 25px;
 }
 
-#logo-div {
-    justify-content: center;
-}
-
-#logo-div img {
-    width: 92px;
-    height: 37px;
-    border: 5px black solid;
-} 
-
-.item-b {
-    grid-area: header;
-    border: 1px #ff0000 solid;
-    display: grid;
-    grid-template-rows: 57% 43%;
-}
-
-.navbar{
-    border: 1px yellow solid;
+#logo-div{
+    border: 5px green solid;
+    width: 100px;
     display: flex;
 }
 
-ul {
-    border: 1px turquoise solid;
+#logo-div img {
+    height: 33px;
+    width: 100px;
+    justify-content: flex-start;
 }
 
-li a {
-    display: block;
-    padding: 0px 10px;
+#searchbar-div{
+    background: yellow;
+    width: 800px;
 }
 
-#navbar-left {
-    width: 75%;
-}
-
-#navbar-right {
-    width: 25%
-}
-
-.item-c {
-    grid-area: option;
-    border: 1px green solid;
-}
-
-.item-e {
-    grid-area: results;
-    border: 1px orange solid;
-}
-
-.item-f {
-    grid-area: footer;
-    border: 1px pink solid;
-}
-
-.container {
-    display: grid;
+#search-input{
+    border-radius: 100px;
+    border: 1px rgba(128,128,128,0.25) solid;
+    height: 100%;
     width: 100%;
-    min-height: 2000px;
-    background: white;
-    grid-template-columns: 12% 1fr 32%;
-    grid-template-rows: 4% 3% 1fr 6%;
-    grid-template-areas:
-    "logo header option"
-    ". header ."
-    ". results ."
-    "footer footer footer";
+    padding-left: 46px;
+    padding-top: 2px;
 }
 
+#options-div{
+    background: red;
+    width: 600px;
+}
+
+#navbar-div {
+    background: pink;
+    height: 3%;
+}
+
+#results-div {
+    background: purple;
+    height: 1fr;
+}
+
+#footer-div {
+    background: orange;
+    height: 10%;
+}
