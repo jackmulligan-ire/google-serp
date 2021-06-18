@@ -1,45 +1,75 @@
 body{
     font-size: 14px;
     height: 1500px;
-    width: 1500px;
-}
-
-#menu-div{
-    background: blue;
-    height: 70px;
-    display: flex;
+    width: 1200px;
     margin: 20px 25px;
 }
 
+#menu-div{
+    border: 1px solid blue;
+    height: 44px;
+    display: flex;
+    margin: 20px 25px;
+    align-items: center;
+}
+
 #logo-div{
-    border: 5px green solid;
-    width: 100px;
+    /* border: 1px green solid; */
+    width: 150px;
     display: flex;
 }
 
 #logo-div img {
-    height: 33px;
-    width: 100px;
+    height: 30px;
+    width: 90px;
     justify-content: flex-start;
 }
 
 #searchbar-div{
-    background: yellow;
-    width: 800px;
+    /* border: 1px solid yellow; */
+    width: 675px;
+    height: 100%;
 }
 
 #search-input{
     border-radius: 100px;
     border: 1px rgba(128,128,128,0.25) solid;
     height: 100%;
-    width: 100%;
+    width: 93%;
     padding-left: 46px;
     padding-top: 2px;
 }
 
+#input-container {
+    width: 98%;
+    height: 37px;
+}
+
 #options-div{
-    background: red;
-    width: 600px;
+    /* border: 1px solid red; */
+    width: 375px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    padding: 10px 2px;
+}
+
+li a {
+    display: block;
+    padding: 0px 10px;
+}
+
+#user-button {
+    background: #d00d0d;
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+    padding: 2px 12px;
+    border-radius: 50%; 
 }
 
 #navbar-div {
