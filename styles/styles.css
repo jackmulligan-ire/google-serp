@@ -33,16 +33,16 @@ body{
     background: pink;
 }
 
-.container {
+.wrapper {
     display: grid;
     width: 100%;
     min-height: 2000px;
     background: white;
     grid-template-columns: 20% 1fr 25%;
-    grid-template-rows: 5% 1fr 10%;
+    grid-template-rows: 5% 5% 1fr 10%;
     grid-template-areas:
     "logo header option"
-    /* ". navbar ." */
+    ". navbar ."
     ". results ."
     ". footer .";
 }
