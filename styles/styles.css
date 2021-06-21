@@ -18,10 +18,10 @@ body{
     background: green;
 }
 
-/* .item-d {
+.item-d {
     grid-area: navbar;
     background: yellow;
-} */
+}
 
 .item-e {
     grid-area: results;
