@@ -1,5 +1,10 @@
 body{
     font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.material-icons {
+    transform: scale(0.9)
 }
 
 .logo-head {
@@ -46,7 +51,32 @@ body{
 
 .nav-head {
     grid-area: navbar;
-    background: grey;
+    border: 2px solid grey;
+    display: grid;
+    height: 100%;
+    grid-auto-columns: 3fr 1fr;
+    grid-template-areas: "nav-left nav-right";
+}
+
+.nav-left {
+    grid-area: nav-left;
+    /* background: cornflowerblue; */
+}
+
+.nav-right {
+    grid-area: nav-right;
+    /* background: beige; */
+}
+
+nav ul{
+    display: flex;
+    font-size: 14px;
+    height: 100%;
+    width: 90%;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #655b5b;
+    border: 1px solid red;
 }
 
 .main-head {
