@@ -1,6 +1,7 @@
 body{
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
+    margin: 20px;
 }
 
 .material-icons {
@@ -9,12 +10,10 @@ body{
 
 .logo-head {
     grid-area: logo;
-    border: 1px blue solid;
 }
 
 .search-head {
     grid-area: search;
-    border: 1px green solid;
 }
 
 #input-container {
@@ -22,7 +21,6 @@ body{
     padding: 20px 0px;
     height: 43px;
     position: relative;
-    border: 2px solid orange;
 }
 
 #search-input{
@@ -40,7 +38,6 @@ body{
 
 .options-head {
     grid-area: options;
-    background: purple;
     display: flex;
     justify-content: flex-end;
 }
@@ -53,11 +50,11 @@ body{
     background: red;
     padding: 0px 10px;
     border-radius: 100%;
+    color: rgb(101, 91, 91);
 }
 
 .nav-head {
     grid-area: navbar;
-    border: 2px solid grey;
     display: grid;
     height: 100%;
     grid-auto-columns: 3fr 1fr;
@@ -66,12 +63,10 @@ body{
 
 .nav-left {
     grid-area: nav-left;
-    /* background: cornflowerblue; */
 }
 
 .nav-right {
     grid-area: nav-right;
-    /* background: beige; */
 }
 
 nav ul{
@@ -82,12 +77,10 @@ nav ul{
     align-items: center;
     justify-content: space-evenly;
     color: #655b5b;
-    border: 1px solid red;
 }
 
 .main-head {
     grid-area: header;
-    /* background: red; */
     display: grid;
     align-items: center;
     grid-template-columns: 14% 1fr 22%;
@@ -112,7 +105,6 @@ nav ul{
     width: 100%;
     min-height: 2000px;
     padding: 10px 10px;
-    background: white;
     grid-template-columns: 14% 1fr 22%;
     grid-template-rows: 7% 1fr 10%;
     grid-template-areas:
