@@ -41,6 +41,12 @@ body{
 .options-head {
     grid-area: options;
     background: purple;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.options-head span {
+    margin: 0px 5px;
 }
 
 .user-icon {
